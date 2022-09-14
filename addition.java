@@ -1,9 +1,9 @@
-package com.craftxbox.main;
-
+package addition;
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args){
+public class Addition {
+
+        public static void main(String[] args) {
         int inInt1;
         int inInt2;
         int outInt;
@@ -15,4 +15,5 @@ public class Main {
         System.out.println(outInt);
 
     }
+    
 }
