@@ -1,19 +1,20 @@
-package addition;
+package addition_vellina;
 import java.util.Scanner;
 
-public class Addition {
+public class Addition_vellina {
 
-        public static void main(String[] args) {
-        int inInt1;
-        int inInt2;
-        int outInt;
-        @SuppressWarnings("resource")
-        Scanner in = new Scanner(System.in);
-        inInt1 = in.nextInt();
-        inInt2 = in.nextInt();
-        outInt = inInt1 + inInt2;
-        System.out.println(outInt);
-
+    
+    public static void main(String[] args) {
+        int num1;
+        int num2;
+        try (Scanner scan = new Scanner(System.in)) {
+            System.out.print("Enter first number: ");
+            num1 = scan.nextInt();
+            System.out.print("Enter second number: ");
+            num2 = scan.nextInt();
+        }
+        int sum = num2 + num1;
+        System.out.println("Output: "+sum);
     }
     
 }
