@@ -1,9 +1,7 @@
-package addition_vellina;
+
 import java.util.Scanner;
+public class Addition{
 
-public class Addition_vellina {
-
-    
     public static void main(String[] args) {
         int num1;
         int num2;
