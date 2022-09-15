@@ -1,7 +1,7 @@
-package division_vellina;
+
 import java.util.Scanner;
 
-public class Division_vellina {
+public class Division{
 
     
     public static void main(String[] args) {
