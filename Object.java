@@ -1,5 +1,5 @@
 
-public class Main {
+public class Object {
   public static void main(String[] args) {
     Flowers myObj = new Flowers();
     myObj.setName("Jasmine");
